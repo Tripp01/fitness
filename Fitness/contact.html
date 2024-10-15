@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> | Contact Us | </title>
+    <link rel="stylesheet" href="C:\Users\ckpor\Desktop\Fitness\css\contact.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fitness-programs.html">Fitness Programs</a></li>
+                <li><a href="trainer-bios.html">Trainers</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="booking.html">Book a Session</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section class="contact-section">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or would like to get in touch, feel free to reach out to us!</p>
+    
+    <div class="contact-details">
+        <p><strong>Phone:</strong> +1 234 567 890</p>
+        <p><strong>Email:</strong> info@fitnesstrainer.com</p>
+        <p><strong>Address:</strong> 123 Fitness Lane, Wellness City, NY</p>
+    </div>
+
+    <form class="contact-form" action="https://formspree.io/f/xnnqajga" method="POST">
+        <!-- Add this hidden field for redirection -->
+        <input type="hidden" name="_next" value="thank-you.html">
+        
+        <!-- Rest of your form fields -->
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="_replyto" required>
+    
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+    
+        <button type="submit">Send Message</button>
+    </form>
+     <!-- Social Media Links -->
+     <div class="social-media">
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="path/to/facebook-icon.png" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="path/to/instagram-icon.png" alt="Instagram">
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+            <img src="path/to/twitter-icon.png" alt="Twitter">
+        </a>
+    </div>
+</section>
+    
+</section>
+
+<footer>
+        <p>&copy; 2024 Fitness Trainer Website. All rights reserved.</p>
+    </footer>

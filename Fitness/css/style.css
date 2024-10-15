@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect */
+header ul li a:hover {
+    background-color: #ff6347; /* Accent color on hover */
+    color: white;
+    border-radius: 5px;
+}
+
+/* Highlight active page */
+header ul li a.active {
+    color: #ffa500; /* Active tab color */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* General styles for sections */
+section {
+    padding: 40px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Welcome Section */
+.welcome-section {
+    background-color: #f7f7f7;
+    padding: 60px;
+    color: #333;
+}
+
+.welcome-section h1 {
+    font-size: 2.5rem;
+}
+
+.welcome-section p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.welcome-section .btn {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Fitness Programs Section */
+.fitness-section .programs {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.fitness-section .program {
+    background-color: #e0e0e0;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.fitness-section .btn {
+    background-color: #4682b4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Trainers Section */
+.trainers-section .trainers {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.trainers-section .trainer {
+    width: 40%;
+}
+
+.trainers-section .trainer img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.trainers-section .btn {
+    background-color: #32cd32;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Testimonials Section */
+.testimonials-section blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #333;
+    margin: 20px 0;
+}
+
+.testimonials-section blockquote cite {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.testimonials-section .btn {
+    background-color: #ffa500;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect */
+header ul li a:hover {
+    background-color: #ff6347; /* Accent color on hover */
+    color: white;
+    border-radius: 5px;
+}
+
+/* Highlight active page */
+header ul li a.active {
+    color: #ffa500; /* Active tab color */
+}
+
+/* General styles for sections */
+section {
+    padding: 40px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Welcome Section */
+.welcome-section {
+    background-color: #f7f7f7;
+    padding: 60px;
+    color: #333;
+}
+
+.welcome-section h1 {
+    font-size: 2.5rem;
+}
+
+.welcome-section p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.welcome-section .btn {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Fitness Programs Section */
+.fitness-section .programs {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.fitness-section .program {
+    background-color: #e0e0e0;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.fitness-section .btn {
+    background-color: #4682b4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Trainers Section */
+.trainers-section .trainers {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.trainers-section .trainer {
+    width: 40%;
+}
+
+.trainers-section .trainer img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.trainers-section .btn {
+    background-color: #32cd32;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Testimonials Section */
+.testimonials-section blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #333;
+    margin: 20px 0;
+}
+
+.testimonials-section blockquote cite {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.testimonials-section .btn {
+    background-color: #ffa500;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/* General Responsive Layout */
+@media (max-width: 768px) {
+    /* Navigation Menu */
+    .nav ul {
+        display: block;  /* Stack the menu vertically on smaller screens */
+        text-align: center;
+    }
+    
+    .nav li {
+        margin-bottom: 10px;
+    }
+
+    /* Fitness Programs Section */
+    .fitness-programs {
+        grid-template-columns: 1fr; /* Make each program take full width */
+    }
+
+    /* Trainers Section */
+    .trainer-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .trainer {
+        width: 100%;  /* Make trainer bios take full width */
+        margin-bottom: 20px;
+    }
+
+    /* Testimonials Section */
+    .testimonial-list {
+        display: flex;
+        flex-direction: column;  /* Stack testimonials vertically */
+        align-items: center;
+    }
+    
+    .testimonial {
+        width: 100%;  /* Make testimonials take full width */
+        margin-bottom: 20px;
+    }
+
+    /* Booking Form */
+    .booking-form {
+        padding: 15px;
+    }
+    
+    /* General text adjustments for smaller screens */
+    body {
+        font-size: 16px;  /* Increase base font size for readability */
+    }
+}
+
+/* Adjustments for Very Small Screens */
+@media (max-width: 480px) {
+    /* Further stack items for smaller mobile screens */
+    .nav ul {
+        font-size: 14px;  /* Reduce font size slightly */
+    }
+
+    .fitness-programs, .trainer-list, .testimonial-list {
+        padding: 10px;
+    }
+
+    /* Smaller buttons */
+    .booking-form button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+/* Navigation Tabs - Smooth hover effect */
+.nav a {
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #fff;
+    background-color: #6c63ff;
+}
+
+/* Trainer Images - Scale on hover */
+.trainer img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trainer img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Testimonials - Expand on hover */
+.testimonial {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Booking Form Button - Smooth hover effect */
+.booking-form button {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.booking-form button:hover {
+    background-color: #5b54e0;
+    transform: translateY(-3px);  /* Button lifts slightly when hovered */
+}
+
+/* Page Load Animation for Trainers Section */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.trainer {
+    animation: fadeInUp 0.6s ease-in-out;
+}
+
+/* Page Load Animation for Testimonials Section */
+.testimonial {
+    animation: fadeInUp 0.6s ease-in-out;
+}
+
+/* Form Fields - Highlight on focus */
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    border-color: #6c63ff;
+    box-shadow: 0 0 8px rgba(108, 99, 255, 0.3);
+}
+

@@ -1,0 +1,323 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+}
+
+header {
+background-color: #333;
+color: #fff;
+padding: 10px 0;
+text-align: center;
+}
+
+/* Navigation Bar */
+header {
+background-color: #333;
+padding: 10px 0;
+text-align: center;
+}
+
+header ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+header ul li {
+display: inline;
+margin: 0 15px;
+}
+
+header ul li a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+font-size: 1.1rem;
+padding: 10px 20px;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect */
+header ul li a:hover {
+background-color: #ff6347; /* Accent color on hover */
+color: white;
+border-radius: 5px;
+}
+
+/* Highlight active page */
+header ul li a.active {
+color: #ffa500; /* Active tab color */
+}
+/* Trainer Bios Overview */
+.trainer-bios-overview {
+    padding: 40px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.trainer-bios-overview h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.trainer-bios-overview p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+
+/* Trainer List */
+.trainer-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.trainer-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 45%;
+    margin: 20px;
+    text-align: center;
+}
+
+.trainer-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.trainer-item h2 {
+    font-size: 1.8rem;
+    margin: 15px 0;
+    color: #333;
+}
+
+.trainer-item p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.trainer-item ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.trainer-item ul li {
+    background-color: #e8f0fe;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .trainer-item {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+/* Trainer List */
+.trainer-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Ensures trainers wrap on smaller screens */
+    margin: 20px 0;
+}
+
+.trainer-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%; /* Adjust the width so 3 trainers can fit side by side */
+    margin: 20px;
+    text-align: center;
+}
+
+.trainer-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.trainer-item h2 {
+    font-size: 1.8rem;
+    margin: 15px 0;
+    color: #333;
+}
+
+.trainer-item p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.trainer-item ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.trainer-item ul li {
+    background-color: #e8f0fe;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* Responsive Design - Adjust layout on smaller screens */
+@media (max-width: 768px) {
+    .trainer-item {
+        width: 100%; /* Full width on smaller screens */
+        margin: 20px 0;
+    }
+}
+
+/* Trainer Item Hover - Only on Images */
+.trainer-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add hover transition for smooth animation */
+}
+
+.trainer-item img:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow to the image */
+}
+
+/* Remove hover effect from the whole trainer item */
+.trainer-item {
+    transition: none; /* No hover effect on the card itself */
+}
+
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Navigation Tabs - Smooth hover effect */
+.nav a {
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #fff;
+    background-color: #6c63ff;
+}
+
+/* Trainer Images - Scale on hover */
+.trainer img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trainer img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Testimonials - Expand on hover */
+.testimonial {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Booking Form Button - Smooth hover effect */
+.booking-form button {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.booking-form button:hover {
+    background-color: #5b54e0;
+    transform: translateY(-3px);  /* Button lifts slightly when hovered */
+}
+
+/* Page Load Animation for Trainers Section */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.trainer {
+    animation: fadeInUp 0.6s ease-in-out;
+}
+
+/* Page Load Animation for Testimonials Section */
+.testimonial {
+    animation: fadeInUp 0.6s ease-in-out;
+}
+
+/* Form Fields - Highlight on focus */
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    border-color: #6c63ff;
+    box-shadow: 0 0 8px rgba(108, 99, 255, 0.3);
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact-section,
+    .programs-section,
+    .trainers-section,
+    .testimonials-section {
+        padding: 10px;
+        margin: 20px 0;
+    }
+
+    /* Adjusting font size */
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .trainer, .testimonial {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact-form input, .contact-form textarea {
+        font-size: 14px;
+    }
+
+    .contact-form button {
+        font-size: 16px;
+    }
+}
+/* Hover effect for trainer photos */
+.trainer img {
+    transition: transform 0.3s ease;
+}
+
+.trainer img:hover {
+    transform: scale(1.1);
+}
